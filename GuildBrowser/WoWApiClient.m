@@ -53,6 +53,7 @@ static dispatch_once_t oncePredicate;
          
          NSLog(@"Error getting character detail: %@",[error localizedDescription]);
          errorBlock(error);
+         //dang
          
      }];
 }
